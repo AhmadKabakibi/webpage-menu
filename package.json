@@ -1,0 +1,23 @@
+{
+  "name": "webpage-menu",
+  "version": "1.0.0",
+  "description": "simple webpage menu ",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadKabakibi/webpage-menu.git"
+  },
+  "author": "a.kabakibi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadKabakibi/webpage-menu/issues"
+  },
+  "homepage": "https://github.com/AhmadKabakibi/webpage-menu#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
