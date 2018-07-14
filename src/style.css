@@ -1,3 +1,10 @@
+
+html, body {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
 body {
   display: -webkit-flex;
   display: -moz-box;
@@ -7,7 +14,6 @@ body {
   -moz-box-direction: normal;
   flex-direction: column;
   height: 100%;
-  background: #f4f5f9;
 }
 
 /*Style for the first level menu bar*/
@@ -164,4 +170,17 @@ ul.submenu > li:hover {
 
 .article h1 {
   margin-top: 0;
+}
+
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  flex-shrink: 0;
+  padding: 2em;
+  background-color: #101832;
+  color: azure;
+  text-align: center;
 }
