@@ -15,7 +15,7 @@ let submenuItems = document.querySelectorAll(".submenu > li");
 
 for (let i = 0; i < submenuItems.length; i++) {
     addListener(submenuItems[i], "click", (e) => {
-        alert(this.innerText);
+        alert(e.currentTarget.innerText);
     });
 }
 
